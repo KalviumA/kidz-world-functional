@@ -139,4 +139,7 @@ cartButton.onclick = () => {
   console.log(
     "The total amount is " + finalDollars + "$ and " + finalCents + " cents"
   );
+
+  let whatsappURL="https://wa.me//1234567890"
+  window.location.href = whatsappURL;
 };
